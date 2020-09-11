@@ -26,6 +26,7 @@
 Week 2:
 TBD
 
+---
 
 Week 3:
 TBD

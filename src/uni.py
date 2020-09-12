@@ -1,4 +1,4 @@
 """
-Use this file to get file for universe.
+Use this file to create functions to get stock universe.
 
 """

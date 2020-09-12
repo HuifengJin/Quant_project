@@ -1,6 +1,6 @@
 # Assignment
 
-- Week 1 Contents:
+- Week 1 - Warm Up:
     1. How git works and why it is crucial to learn git.
     2. First glimpse on Financial data for China Equity.
     3. First step to build a workable data pipeline.
@@ -23,34 +23,34 @@
 
 ---
 
-Week 2:
+Week 2 - Build your trading signal(1):
 TBD
 
 ---
 
-Week 3:
+Week 3 - Build your trading signal(2):
+Evaluation of signal
+
+
+Week 4 - Mid-term recap and lecture:
+- Evaluate trading signal
+- Mid-term recap
+- Lecture: Hedge Fund and Asset Manager industry introduction 
+
+
+Week 5 - Alternative data:
 TBD
 
 
-Week 4:
+Week 6 - Application of alternative data :
 TBD
 
 
-Week 5:
+Week 7 - Visualize and present the result: 
 TBD
 
 
-Week 6:
+Week 8 - Capstone:
 TBD
 
 
-Week 7:
-TBD
-
-
-Week 8:
-TBD
-
-
-Extra:
-- Topics student is interested.

@@ -12,7 +12,7 @@
     4. Given a universe file, create a function to get daily stock price data and store them to /data/daily_price as csv
         - data of past 5 years is desirable
     5. Now you have stock price data of past 5 years, but you need a function to update them on daily base. Please create a function to update the files.
-        - Please do not repeat previous steps again to get full data, as getting 5-year data again from API is slow and not optimal. 
+        - Please do not repeat previous steps to get full data, as getting 5-year data daily from API is slow and not optimal. 
         - There are several ways you could update the data, just pick up one that works for you.
     
 - Bonus point:

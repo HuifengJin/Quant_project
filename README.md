@@ -11,9 +11,9 @@
     3. Create a function to get hs300 stock dataframe and store it under /data/universe/ as csv
     4. Given a universe file, create a function to get daily stock price data and store them to /data/daily_price as csv
         - data of past 5 years is desirable
-    5. Now you have stock price data of past 5 years, but you need a function to update them everyday. Please create a function to update the files.
-        - Please do not call API to get data for 5 years data again, as getting all data again from API daily is slow and not optimal.
-        - There are several ways you could update the data, just pick up one that works better for you.
+    5. Now you have stock price data of past 5 years, but you need a function to update them on daily base. Please create a function to update the files.
+        - Please do not repeat previous steps again to get full data, as getting 5-year data again from API is slow and not optimal. 
+        - There are several ways you could update the data, just pick up one that works for you.
     
 - Bonus point:
     - How to check whether new data is loaded on server side before updating?
@@ -24,12 +24,12 @@
 ---
 
 Week 2 - Build your trading signal(1):
-TBD
+- TBD
 
 ---
 
 Week 3 - Build your trading signal(2):
-Evaluation of signal
+- Evaluation of signal
 
 
 Week 4 - Mid-term recap and lecture:
@@ -39,18 +39,18 @@ Week 4 - Mid-term recap and lecture:
 
 
 Week 5 - Alternative data:
-TBD
+- TBD
 
 
 Week 6 - Application of alternative data :
-TBD
+- TBD
 
 
 Week 7 - Visualize and present the result: 
-TBD
+- TBD
 
 
 Week 8 - Capstone:
-TBD
+- TBD
 
 

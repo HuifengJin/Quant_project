@@ -42,7 +42,7 @@ Week 5 - Alternative data:
 - TBD
 
 
-Week 6 - Application of alternative data :
+Week 6 - Utilization of alternative data :
 - TBD
 
 

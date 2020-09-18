@@ -57,7 +57,7 @@ Week 2 - Build your trading signal(1):
 
 Week 3 - Build your trading signal(2):
 - Evaluation of signal
-- 工欲善其事, 必先利其器
+
 
 
 Week 4 - Mid-term recap and lecture:

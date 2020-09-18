@@ -24,7 +24,34 @@
 ---
 
 Week 2 - Build your trading signal(1):
-- TBD
+##### In this week, you will learn to build a trading signal based on the data you gathered in week 1.
+##### You may encounter several issues and you need to make sensible decisions in order to move forward.
+##### Good luck!
+
+- What we will cover:
+    - what is MA/EMA, and in general how traders trade on it.
+    - Extract EMA signals from data.
+    - Calculate returns from data.
+    - Combine to a panel data for further analysis.
+
+- Signals we would like to capture:
+    ![image info](images/iShot2020-09-1608.59.24.png)
+
+- Assignment:
+    1. Understand what is MA and how it works.
+        - https://www.investopedia.com/articles/active-trading/052014/how-use-moving-average-buy-stocks.asp#:~:text=The%20moving%20average%20(MA)%20is,time%20period%20the%20trader%20chooses.
+    2. Understand what is EMA, and then install ta-lib package, use it to get EMA with price data.
+        - https://github.com/mrjbq7/ta-lib
+        - if ta-lib doesn't work on your computer, which happens time to time, you will have to calculate MA by yourself.
+    3. Pick 中国平安 as example, calculate and append **EMA100** values
+    4. Based on below conditions, create a new column called 'score_ema_100', in which value equals to 1 if signal detected, otherwise 0.
+        - condition: (low <= EMA100) & (close >= EMA100) for a single day price
+    5. Calculate and append return data
+        - return calculation: t+x_return = ((t+x_close - t+1_open) / t+1_open) - 1
+        - x = range(1,10)
+    6. Combine price data, signal data, return data to a panel data, which will be used for further analysis.
+        - I will show you an example of how it should look like.
+    
 
 ---
 

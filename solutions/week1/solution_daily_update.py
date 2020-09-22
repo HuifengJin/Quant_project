@@ -28,7 +28,7 @@ def price_daily_update(ts_code, start_day, end_day):
 
     # Merge data, drop duplicates
     temp_df = pd.concat([new_data, old_data])
-    temp_df['trade_date'] = temp_df['trade_date'].apply(str)
+    #temp_df['trade_date'] = temp_df['trade_date'].apply(str)
     data = temp_df.drop_duplicates(subset=['trade_date'], keep='first').reset_index(drop=True)
 
     return data

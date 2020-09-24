@@ -21,6 +21,17 @@ def calculate_score(df):
     df['score_ema_100'] = df.apply(lambda x: condition(x.low, x.close, x.ema100),axis = 1)
     return df
 
+def calculate_return(df):
+    for index, row in df.iterrows():
+        if index-1 >= 0:
+            df.loc[index,'t1open'] = df.loc[index-1].open
+        
+        for x in range(1,10):
+            if index-x >= 0:
+                df.loc[index,'t'+str(x)+'_ret_on_t1open'] = ((df.loc[index-x].close-df.loc[index-1].open)/df.loc[index-1].open)*100
+    
+    return df
+
 if __name__ == "__main__":
     
     stock_price = pd.read_csv("../data/daily_price/601318.SH.csv", index_col = 0)
@@ -31,4 +42,6 @@ if __name__ == "__main__":
     
     stock_price = calculate_score(stock_price)
     
-    stock_price.to_csv('../data/trading_signal/ema100.csv', index=False)
+    stock_price = calculate_return(stock_price)
+    
+    stock_price.to_csv('../data/panel_data/ema100.csv', index=False)

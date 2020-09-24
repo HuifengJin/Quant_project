@@ -56,14 +56,23 @@ Week 2 - Build your trading signal(1):
 ---
 
 Week 3 - Build your trading signal(2):
-- Evaluation of signal
+##### Last week, you built your first trading signal based on moving average, and applied it to ticker 601318.
+##### This week, we will evaluate the signal.
 
-
+- Assignment:
+    1. Plot the return distribution. You could use Jupyter notebook.
+    2. Calculate metrics
+        - signal breath: number of time signal detected per month/year.
+        - win rate: percentage of time signal produces positive return
+        - biggest drawback: biggest negative return
+        - avg return: average return
+    3. Write a reusable class for step 2 and each metrics should be a method in the class.
+    4. (extra) You can break down above metrics by year, month, to get more informed insight.
+    5. (extra) You can also visualize the result by plotting. We will not cover visualization topics for now.
+    
+---
 
 Week 4 - Mid-term recap and lecture:
-- Evaluate trading signal
-- Mid-term recap
-- Lecture: Hedge Fund and Asset Manager industry introduction 
 
 
 Week 5 - Alternative data:
@@ -74,8 +83,9 @@ Week 6 - Utilization of alternative data :
 - TBD
 
 
-Week 7 - Visualize and present the result: 
-- TBD
+Week 7 - Portfolio: 
+- concept
+- construct one
 
 
 Week 8 - Capstone:

@@ -72,7 +72,10 @@ Week 3 - Build your trading signal(2):
     
 ---
 
-Week 4 - Mid-term recap and lecture:
+Week 4 - Visualization and new signal:
+- Scale contents of week2&3 to the HS300 universe.
+- plot candle sticks
+- MA Crossover signal
 
 
 Week 5 - Alternative data:
@@ -83,12 +86,10 @@ Week 6 - Utilization of alternative data :
 - TBD
 
 
-Week 7 - Portfolio: 
-- concept
-- construct one
+Week 7 - Capstone 1: build your passive strategy 
 
 
-Week 8 - Capstone:
-- TBD
+Week 8 - Capstone 2: build your active strategy
+- casual Q&A and career talk
 
 

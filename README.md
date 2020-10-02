@@ -73,9 +73,27 @@ Week 3 - Build your trading signal(2):
 ---
 
 Week 4 - Visualization and new signal:
-- Scale contents of week2&3 to the HS300 universe.
-- plot candle sticks
-- MA Crossover signal
+##### This week, You will recap what you learned in previous weeks, and apply to a similar strategy.
+##### You will also explore to write some utility functions that will help you visualize the data.
+
+**Please be noticed that, start from this week, I will not explicitly tell you what to do. I will give you a direction, and you will figure out the details.
+But you should feel free to ask any questions if you are not sure.**
+
+- Assignment:
+    - Apply to what you learned to apply to MA Crossover signal
+        - figure out what is MA crossover, and how it works
+        - Design your MA crossover signal
+        - Send me your designs
+        - start coding up the signal
+        - Evaluate it
+        
+    - write a function to plot candle stick charts
+        - input param: df, time range
+        - output: a candle stick chart
+        
+    - Scale contents of week2&3 to the HS300 universe.
+        - Apply the contents to HS 300. Simply a for loop.
+        - Save it to a fairly structured folders.
 
 
 Week 5 - Alternative data:

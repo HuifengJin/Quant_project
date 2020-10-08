@@ -8,7 +8,6 @@ Created on Thu Oct  1 20:41:36 2020
 import numpy as np
 import pandas as pd
 
-
 class stock_metrics:
     def __init__(self,df):
         self.DF = df.fillna(0)

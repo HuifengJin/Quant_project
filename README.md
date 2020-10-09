@@ -97,8 +97,22 @@ But you should feel free to ask any questions if you are not sure.**
 
 
 Week 5 - Alternative data:
-- TBD
+##### Investors gradually realize alpha decays fast. If investors only incorporate traditional data, it is difficult to generate alpha.
+##### So Alternative data become increasingly important.
 
+- Assignment:
+    1. Figure out what is North Money, South Money
+    2. Find the api from tushare
+    3. get the data for past 5 years
+    4. Get some statistics:
+        - How many unique names per year
+        - How often those names show up on the list
+    5. Mapping the names and trading volumes to the candle sticks plot you draw last week.
+    6. Do you see anything interesting?
+    7. figure out a way to store the output
+        - You may want to store statistics in text file, or html file, or sending me daily email on a trading day.
+        - How to store the plots? If use notebook, Is it too slow to open? How about store graphs to local drive.
+    
 
 Week 6 - Utilization of alternative data :
 - TBD

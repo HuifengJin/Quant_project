@@ -114,14 +114,34 @@ Week 5 - Alternative data:
         - How to store the plots? If use notebook, Is it too slow to open? How about store graphs to local drive.
     
 
-Week 6 - Utilization of alternative data :
-- TBD
+Week 6 - A real case study: Streamline your workflow for reporting
+##### You are working for a tech department. One of your works is to provide market report daily to Fundamental PM.
+##### The PM would like to have a daily report on his/her desk one hour after market close everyday.
+##### You would like to streamline your workflow to get it done, so you can set yourself free for other tasks.
+
+- To simplify the task for you, lets use the requirements below:
+    - PM needs a description of the company that triggers our trading signal.
+    - PM needs a quick view of candle and volume charts of the company.
+    - PM would like to receive an email which contains all information.
+
+- Assignment:
+    - Make a folder and put in price data file of 5 stocks that is well known
+    - code the logic for updating data daily
+    - code the logic to send 5 emails with below information
+        - Subject: Daily report for [ticker] on [date]
+        - Information of the company
+        - North data information
+        - MA signal information
+        - Candle Charts
+
+- What to expect:
+    - Running a simple "daily_report_gen.py" in cmd
+    - The py script will get all things done.    
 
 
-Week 7 - Capstone 1: build your passive strategy 
+Week 7 - Capstone 1: build your smart beta portfolio
 
 
 Week 8 - Capstone 2: build your active strategy
-- casual Q&A and career talk
 
 

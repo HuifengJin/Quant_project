@@ -132,7 +132,7 @@ Week 6 - A real case study: Streamline your workflow for reporting
         - Information of the company
         - North data information
         - MA signal information
-        - Candle Charts
+
 
 - What to expect:
     - Running a simple "daily_report_gen.py" in cmd

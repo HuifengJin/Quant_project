@@ -136,11 +136,22 @@ Week 6 - A real case study: Streamline your workflow for reporting
 
 - What to expect:
     - Running a simple "daily_report_gen.py" in cmd
-    - The py script will get all things done.    
+    - The py script will get all things done.
 
 
 Week 7 - Capstone 1: build your smart beta portfolio
-
+- Assignment:
+    1. Understand what is beta, and what is smart beta
+    2. Construct a portfolio by using the companies recorded in north money.
+        - The construction process can be very flexible. I will list up some assumptions, but feel free to add more.
+            - how to pick up the company: mentioned? net-inflow? for how many days?
+            - How to decide the weights in portfolio?
+            - Do you want to actively manage the portfolio?
+        - Please come up with an assumption and a plan, and lets have a review before moving forward.
+    3. Track its performance
+    4. Compare it to benchmark HS300
+    5. Plot it the equity curve. 
+    6. Draw a conclusion on your assumption.
 
 Week 8 - Capstone 2: build your active strategy
 

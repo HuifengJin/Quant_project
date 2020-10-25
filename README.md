@@ -143,7 +143,7 @@ Week 7 - Capstone 1: build your smart beta portfolio
 - Assignment:
     1. Understand what is beta, and what is smart beta
     2. Construct a portfolio by using the companies recorded in north money.
-        - The construction process can be very flexible. I will list up some assumptions, but feel free to add more.
+        - The construction process can be very flexible. I will list up some assumptions, but feel free to change or add more.
             - how to pick up the company: mentioned? net-inflow? for how many days?
             - How to decide the weights in portfolio?
             - Do you want to actively manage the portfolio?

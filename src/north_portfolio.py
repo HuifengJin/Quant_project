@@ -20,7 +20,7 @@ pro = ts.pro_api()
 def get_north_stock(start_year, end_year):
     stock_set = set()
     for year in range(start_year,end_year+1):
-        with open(str(year)+'_name_list.txt','r') as f:
+        with open('../data/name/'+str(year)+'_name_list.txt','r') as f:
             dic=[]
             for line in f.readlines():
                 line=line.strip('\n')

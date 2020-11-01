@@ -153,6 +153,13 @@ Week 7 - Capstone 1: build your smart beta portfolio
     5. Plot it the equity curve. 
     6. Draw a conclusion on your assumption.
 
-Week 8 - Capstone 2: build your active strategy
+Week 8 - Wrap up report
+- Assignment:
+    - To write a report on the strategy/portfolio
+        - sensibility
+        - how you construct the strategy, and how you make decisions
+        - Visualize the mid-result/final result
+        - The criteria is clear logic and easy to follow
+
 
 

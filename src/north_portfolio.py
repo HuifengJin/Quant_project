@@ -132,7 +132,7 @@ if __name__ == "__main__":
     hs300_df = pro.index_daily(ts_code = '399300.SZ',start_date='20200101', end_date='20200230')
     hs300_result = cal_return(hs300_df)
     print(stocks)
-    print(return_list-hs300_result)
+    print(top20_result)
     print(hs300_result)
     
     #new_stocks = update_top_20('20200101', '20200230', stocks, return_list, hs300_result)
